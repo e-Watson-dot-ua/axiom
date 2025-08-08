@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axiom.Domain", "Axiom.Domain\Axiom.Domain.csproj", "{AD2BED2C-C981-49A3-978D-AAA47D5F7282}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axiom.Application", "Axiom.Application\Axiom.Application.csproj", "{37670A8D-33E3-4507-8737-E9836ACEE8F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{AD2BED2C-C981-49A3-978D-AAA47D5F7282}.Release|x64.Build.0 = Release|Any CPU
 		{AD2BED2C-C981-49A3-978D-AAA47D5F7282}.Release|x86.ActiveCfg = Release|Any CPU
 		{AD2BED2C-C981-49A3-978D-AAA47D5F7282}.Release|x86.Build.0 = Release|Any CPU
+		{37670A8D-33E3-4507-8737-E9836ACEE8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37670A8D-33E3-4507-8737-E9836ACEE8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37670A8D-33E3-4507-8737-E9836ACEE8F5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{37670A8D-33E3-4507-8737-E9836ACEE8F5}.Debug|x64.Build.0 = Debug|Any CPU
+		{37670A8D-33E3-4507-8737-E9836ACEE8F5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{37670A8D-33E3-4507-8737-E9836ACEE8F5}.Debug|x86.Build.0 = Debug|Any CPU
+		{37670A8D-33E3-4507-8737-E9836ACEE8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37670A8D-33E3-4507-8737-E9836ACEE8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37670A8D-33E3-4507-8737-E9836ACEE8F5}.Release|x64.ActiveCfg = Release|Any CPU
+		{37670A8D-33E3-4507-8737-E9836ACEE8F5}.Release|x64.Build.0 = Release|Any CPU
+		{37670A8D-33E3-4507-8737-E9836ACEE8F5}.Release|x86.ActiveCfg = Release|Any CPU
+		{37670A8D-33E3-4507-8737-E9836ACEE8F5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
