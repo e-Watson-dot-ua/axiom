@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using Axiom.Application.Contracts.Persistence;
 using Axiom.Application.Features.Divisions.Queries;
 using Axiom.Domain.Entities.Divisions;
@@ -20,7 +21,7 @@ public class GetAllDivisionsHandlerTests
         var repoMock = new Mock<IRepository<Division>>();
         repoMock.Setup(r => r.ListAsync(
                 null,
-                It.IsAny<System.Linq.Expressions.Expression<Func<Division, DivisionsItem>>>(),
+                It.IsAny<Expression<Func<Division, DivisionsItem>>>(),
                 0, int.MaxValue, true, It.IsAny<CancellationToken>()))
             .ReturnsAsync(divisions);
 
