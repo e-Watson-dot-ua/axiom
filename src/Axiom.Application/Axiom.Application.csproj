@@ -10,4 +10,8 @@
     <ProjectReference Include="..\Axiom.Domain\Axiom.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="WolverineFx" Version="4.9.1" />
+  </ItemGroup>
+
 </Project>
